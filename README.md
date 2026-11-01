@@ -10,7 +10,23 @@ The original code is included without changes. It **does not modify `data.xlsx`*
 
 The screenshot uses sample record details for safe public sharing.
 
+## Keyboard shortcuts
+
+Keyboard control is the main workflow: you can review recordings and move between records without repeatedly reaching for the mouse.
+
+| Shortcut | Action |
+| --- | --- |
+| `Enter` | Mark the current record `OK` and advance to the next one. |
+| `Ctrl+R` | Also mark the current record `OK` and advance. |
+| `Backspace` | Save the current text and return to the previous record. |
+| `Ctrl+E` | Also return to the previous record. |
+| `Space` | Play or open the current record's audio. |
+| `Ctrl+S` | Save the edited transcript text to the local `data.csv`. |
+
+The `FIXED` and `SKIP` statuses are available through buttons; the original code does not define keyboard shortcuts for them.
+
 The original code is included without changes. It **does not modify `data.xlsx`**. On startup, it reads that workbook and creates or overwrites a local `data.csv`. Actions in the interface write transcript text and status to `data.csv`, and the current position to `progress.txt`. These local files are not synchronized with Google Sheets.
+
 
 ## Input files
 
