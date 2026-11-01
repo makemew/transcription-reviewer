@@ -4,6 +4,14 @@
 
 The original code is included without changes. It **does not modify `data.xlsx`**. On startup, it reads that workbook and creates or overwrites a local `data.csv`. Actions in the interface write transcript text and status to `data.csv`, and the current position to `progress.txt`. These local files are not synchronized with Google Sheets.
 
+## Interface
+
+![Audio Transcription Reviewer interface with sample data](assets/reviewer-ui-demo.png)
+
+The screenshot uses sample record details for safe public sharing.
+
+The original code is included without changes. It **does not modify `data.xlsx`**. On startup, it reads that workbook and creates or overwrites a local `data.csv`. Actions in the interface write transcript text and status to `data.csv`, and the current position to `progress.txt`. These local files are not synchronized with Google Sheets.
+
 ## Input files
 
 Run the program from a folder containing:
